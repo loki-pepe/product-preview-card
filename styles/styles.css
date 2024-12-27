@@ -29,6 +29,12 @@ body {
     padding: 24px 12px;
 }
 
+h2 {
+    color: var(--aurometal);
+    font: var(--overline);
+    margin: 24px;
+}
+
 img {
     display: block;
     width: 100%;
