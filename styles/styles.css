@@ -123,3 +123,35 @@ section {
 section > *:not(button) {
     margin-bottom: 16px;
 }
+
+@media (min-width: 600px) {
+
+    body {
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex: 0 0 600px;
+        height: 450px;
+    }
+
+    picture > img {
+        border-radius: 10px 0 0 10px;
+        height: 100%;
+        width: auto;
+    }
+
+    section {
+        padding: 32px;
+    }
+
+    section > *:not(button) {
+        margin-bottom: 24px;
+    }
+
+    .price {
+        margin-bottom: 32px;
+    }
+
+}
