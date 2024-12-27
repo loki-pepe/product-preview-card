@@ -26,12 +26,14 @@
 body {
     min-height: 100vh;
     background-color: var(--cream);
+    padding: 36px 12px;
 }
 
 img {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 10px 10px 0 0;
 }
 
 main {
