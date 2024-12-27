@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/loki-pepe/recipe-page)
+- [Solution URL](https://github.com/loki-pepe/product-preview-card)
 - [Live Site UR](https://loki-pepe.github.io/product-preview-card/)
 
 ## My process
@@ -46,7 +46,7 @@ Users should be able to:
 
 I learned the basics of flexbox and got acquainted with the picture element.
 
-I have noticed the longer time it takes for the image to adapt to the layout when switching between mobile and desktop views, but I am unsure how to fix the issue (or if it needs to be fixed at all since users will generally use either the mobile or the desktop view, and the first time loading of the either layout is fine).
+I have noticed the longer time it takes for the image to adapt to the layout when switching between mobile and desktop views, but I am unsure how to fix the issue (or if it needs to be fixed at all since users will generally use either the mobile or the desktop view, and the first time loading of either layout is fine).
 
 ### Continued development
 
