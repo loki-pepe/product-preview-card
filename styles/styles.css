@@ -39,6 +39,12 @@ body {
     padding: 24px 12px;
 }
 
+h1 {
+    margin: 24px;
+    color: var(--gunmetal);
+    font: var(--display);
+}
+
 h2 {
     color: var(--aurometal);
     font: var(--overline);
