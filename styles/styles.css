@@ -1,3 +1,19 @@
+:root {
+    /* Colors */
+    --white: #FFF;
+    --cream: #F2EAE2;
+    --aurometal: #6C7289;
+    --auqamarine: #3D8168;
+    --aquamarine-hover: #1A4032;
+    --gunmetal: #1C232B;
+
+    /* Typography */
+    --display: normal 700 32px/100% "Fraunces", serif;
+    --body: normal 500 14px/150% "Montserrat", sans-serif;
+    --button: normal 700 14px/normal "Montserrat", sans-serif;
+    --overline: normal 500 12px/normal "Montserrat", sans-serif;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
