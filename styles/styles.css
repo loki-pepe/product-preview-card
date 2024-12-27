@@ -39,6 +39,25 @@ body {
     padding: 24px 12px;
 }
 
+button {
+    font: var(--button);
+    color: var(--white);
+    background-color: var(--auqamarine);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: var(--aquamarine-hover);
+    cursor: pointer;
+}
+
 .current {
     font: var(--display);
     color: var(--auqamarine);
@@ -51,7 +70,6 @@ body {
 }
 
 h1 {
-    margin: 24px;
     color: var(--gunmetal);
     font: var(--display);
 }
@@ -59,15 +77,11 @@ h1 {
 h2 {
     color: var(--aurometal);
     font: var(--overline);
-    margin: 24px;
     letter-spacing: 5px;
 }
 
 img {
     display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0 0;
 }
 
 main {
@@ -78,16 +92,29 @@ main {
 p {
     color: var(--aurometal);
     font: var(--body);
-    margin: 24px;
 }
 
 picture {
     display: block;
 }
 
+picture > img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+}
+
 .price {
-    margin: 24px;
     display: flex;
     gap: 19px;
     align-items: center;
+    margin-top: 32px;
+}
+
+section {
+    padding: 24px;
+}
+
+section > *:not(button) {
+    margin-bottom: 16px;
 }
