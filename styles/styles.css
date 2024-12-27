@@ -63,3 +63,13 @@ main {
     background-color: var(--white);
     border-radius: 10px;
 }
+
+p {
+    color: var(--aurometal);
+    font: var(--body);
+    margin: 24px;
+}
+
+picture {
+    display: block;
+}
